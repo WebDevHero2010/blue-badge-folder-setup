@@ -103,7 +103,7 @@ function displayAll() {
       console.log(response);
       let display = document.getElementById("journals");
       for (i = 0; (i = display.childNodes.length); i++) {
-        display.removeChil(display.firstChild);
+        display.removeChild(display.firstChild);
       }
 
       if (response.length === 0) {
