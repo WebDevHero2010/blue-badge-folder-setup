@@ -69,3 +69,11 @@ console.log(merge, obj1);
 
 let obj1 = { a: "Hello", b: "Mark", c: "!" };
 let obj2 = { a: "Goodbye" };
+
+let merge = { ...obj1, ...obj2 };
+console.log(merge);
+
+let obj = { a: 1, b: 2, C: 3 };
+let copyObj = [...obj];
+
+console.log(copyObj);
