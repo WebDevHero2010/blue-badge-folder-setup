@@ -29,3 +29,43 @@ const copiedPersons = [...persons];
 
 persons.push({ name: "Quinn", age: 24 });
 console.log(persons, copiedPersons);
+
+//MATH
+console.log(Math.min(1, 5, -3));
+let prices = [10.99, 5.99, 3.99, 6.59];
+console.log(Math.min(...prices)); //NaN
+console.log(Math.min(...prices)); //Standalone elements.
+
+//CONCATENATE ARRAYS
+let sent1 = [1, 2, 3, 4];
+let sent2 = [5, 6, 7, 8];
+let concat = [...sent1, ...sent2];
+console.log(concat);
+
+//PASS ARGUMENTS
+let sentence = ["Oh hi mark", false, 2];
+
+function sent(a, b, c) {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+}
+
+sent(...sentence);
+
+//COPY AN OBJECT
+let obj = { a: 1, b: 2, c: 3 };
+copyObj = { ...obj };
+// copyObj = {obj}; //NOT the same
+
+console.log(copyObj, obj);
+
+//MERGE OBJECTS
+let obj1 = { a: 1, b: 2, c: 3 };
+let obj2 = { d: 4, e: 5, f: 6 };
+
+let merge = { ...obj1, ...obj2 };
+console.log(merge, obj1);
+
+let obj1 = { a: "Hello", b: "Mark", c: "!" };
+let obj2 = { a: "Goodbye" };
