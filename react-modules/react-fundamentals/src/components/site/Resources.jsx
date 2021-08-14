@@ -15,12 +15,17 @@ const Resources = () => {
             <a
               href="https://reactjs.org/docs/getting-started.html"
               target="_blank"
+              rel="noreferrer"
             >
               The Official Docs
             </a>
           </li>
           <li>
-            <a href="https://reacttraining.com/react-router" target="_blank">
+            <a
+              href="https://reacttraining.com/react-router"
+              target="_blank"
+              rel="noreferrer"
+            >
               React Router Dom
             </a>
           </li>
@@ -28,6 +33,7 @@ const Resources = () => {
             <a
               href="https://wwww.udemy.com/course/react-redux/"
               target="_blank"
+              rel="noreferrer"
             >
               Stephen Grider's Udemy Course for the Udemy API
             </a>
@@ -36,6 +42,7 @@ const Resources = () => {
             <a
               href="https://pluralsight.com/course/react-js-getting-started"
               target="_blank"
+              rel="noreferrer"
             >
               Samer Buna's Pluralsight Course for the Github API Starter
             </a>
@@ -44,12 +51,17 @@ const Resources = () => {
             <a
               href="https://www.udemy.com/course/react-the-guide-incl-redux"
               target="_blank"
+              rel="noreferrer"
             >
               Maximilian Schwarzmuller's Udemy Course
             </a>
           </li>
           <li>
-            <a href="https://reactstrap.github.io/" target="_blank">
+            <a
+              href="https://reactstrap.github.io/"
+              target="_blank"
+              rel="noreferrer"
+            >
               ReactStrap for a Bootstrap Application
             </a>
           </li>
@@ -57,6 +69,7 @@ const Resources = () => {
             <a
               href="https://gorangajic.github.io/react-icons/fa.html"
               target="_blank"
+              rel="noreferrer"
             >
               Font Awesome for React
             </a>
@@ -65,6 +78,7 @@ const Resources = () => {
             <a
               href="https://github.com/bmorelli25/interactive-bitcoin-price-chart"
               target="_blank"
+              rel="noreferrer"
             >
               Bitcoin
             </a>
@@ -73,6 +87,7 @@ const Resources = () => {
             <a
               href="https://github.com/mthorry/earthquakes-mapper"
               target="_blank"
+              rel="noreferrer"
             >
               Google Maps
             </a>
@@ -81,6 +96,7 @@ const Resources = () => {
             <a
               href="https://neptunian.github.io/react-photo-gallery"
               target="_blank"
+              rel="noreferrer"
             >
               React Photo Gallery
             </a>

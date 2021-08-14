@@ -70,7 +70,7 @@ const HelloWorld = function () {
     <div>
       <Card>
         <img
-          width="100"
+          width="100%"
           height="280px"
           src="https://i.ytimg.com/vi/BwAakF_VUV8/maxresdefault.jpg"
           alt="Card cap"
