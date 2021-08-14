@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import Home from "./Home";
 import Resources from "./Resources";
-
+import FunctionalComponentDemo from "../concepts/FunctionalComponentDemo";
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -29,6 +29,9 @@ const Sidebar = () => {
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/functionalcomponent">
+            <FunctionalComponentDemo />
           </Route>
         </Switch>
       </div>
