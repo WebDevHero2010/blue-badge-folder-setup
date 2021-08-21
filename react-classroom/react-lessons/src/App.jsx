@@ -23,7 +23,10 @@
 // export default App;
 
 import React, { useState, useEffect } from "react";
-import Calculator from "./components/day03-Challenge/Calculator/Calculator";
+//import Calculator from "./components/day03-Challenge/Calculator/Calculator";
+import UseEffectPractice from "./components/day03-Challenge/day04-Challenge/UseEffectPractice";
+import ChuckFetch from "./components/day03-Challenge/day04-Challenge/ChuckFetch/CheckFetch";
+import MortyParent from "./components/day03-Challenge/day04-Challenge/RickandMorty/MortyParent";
 //import InputField from "./components/day03-Challenge/inputFieldDemo/inputField";
 //import "./App.css";
 //import TenLittleMonkeys from "./components/day03-Challenge/TenLittleMonkeys";
@@ -37,7 +40,10 @@ function App() {
       <h1>Welecome to React, {welcomeName}</h1>
       {/* <TenLittleMonkeys /> */}
       {/* <InputField /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <UseEffectPractice />
+      <ChuckFetch /> */}
+      <MortyParent />
     </div>
   );
 }
